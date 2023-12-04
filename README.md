@@ -40,3 +40,5 @@ Se importan por medio de la libreria ipyn.
 En este archivo se encuentra el análisis exploratorio de los datos.
 ### clusterai_bruno_acosta_transformations.ipynb
 En este archivo se encuentra el entrenamiento y análisis de varios modelos de machine learning, seguido por una reducción de dimensionalidad y nuevo entrenamiento de modelo.
+### clusterai_reporte_acosta.pdf
+Este es el reporte final donde se detallan los algoritmos usados y los resultados obtenidos.
