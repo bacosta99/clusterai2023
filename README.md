@@ -1,3 +1,55 @@
+# **Final Group Project: Bank Subscription**
+____
+__National Technological University, Buenos Aires__\
+__Industrial Engineering__\
+__Data Science - Course I5521__
+____
+Students: Acosta, Bruno and Bartolomeo, Agustin
+
+## clusterai2023
+In this repository, the practical work carried out for the 2023 data science class is published.
+
+A bank wants to predict how many clients will subscribe to a marketing campaign. To achieve this, they share a dataset with a client portfolio of 45,211 individuals with 17 variables showing some characteristics of clients in the bank.
+
+A deep study of the dataset will be conducted to understand the data being worked on and the trends in the data, followed by a transformation of the variables. With the transformed dataset, several machine learning models will be trained with the aim of finding the one that predicts whether a client will subscribe or not in the best possible way.
+
+## File Description:
+### bank_subscription (1).csv
+This CSV file contains the data used in this project. It has the following columns:
+
+1. Age: Client's age
+2. Job: Client's job type
+3. Martial Status: Marital status
+4. Education: Client's highest education level
+5. Credit: Whether the client has credit debt or not
+6. Balance (euros): Average account balance in the year
+7. Housing loan: Whether the client has home insurance or not
+8. Persona loan: Whether the client has loans or not
+9. Contact: Client's contact type (cellular or telephone)
+10. Last Contact Day: Last contact day with the client in the month
+11. Last Contact Month: Last contact month with the client in the year
+12. Last Contact Duration: Duration of the last contact with the client measured in seconds
+13. Campaign: Number of contacts to the client during this campaign, including the last contact.
+14. Pdays: Number of days passed since the last contact with the client from a previous campaign. -1 means no previous contact
+15. Previous: Number of previous contacts before this campaign for each client
+16. Poutcome: Performance of the previous marketing campaign for this client
+17. Subscription: Whether the client agrees to the campaign (1) or not (0). **Variable to predict.**
+### clusterai_bruno_acosta_transformations.ipynb
+This file contains all the functions that transform the dataset so that it can be processed by machine learning models. They are imported using the ipyn library.
+
+### clusterai_bruno_acosta_eda.ipynb
+This file contains the exploratory data analysis.
+
+### clusterai_bruno_acosta_transformations.ipynb
+This file contains the training and analysis of various machine learning models, followed by dimensionality reduction and new model training.
+
+### clusterai_reporte_acosta.pdf
+This is the final report detailing the algorithms used and the results obtained.
+
+____
+# _Spanish_
+
+
 # **Trabajo Final Grupal: Bank Subscription**
 ____
 __Universidad Tecnológica Nacional, Buenos Aires__\
